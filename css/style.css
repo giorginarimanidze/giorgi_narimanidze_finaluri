@@ -1,0 +1,71 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+/*  * * * HEADER * * *  */
+
+header {
+    padding: 26px 12%;
+    background-color: rgba(213, 144, 110, 0.52);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+}
+
+.header_ul {
+    display: flex;
+    gap: 60px;
+}
+
+.li_afirst {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgba(213, 144, 110, 1)
+}
+
+.li_a {
+
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icon_a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header_sign {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* * * * BG iMG - SECTION * * * */
+
+.bgimg_section {
+    height: 720px;
+
+    margin-bottom: 1000px;
+
+    background-image: url(../img/Rectangle\ 106\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
