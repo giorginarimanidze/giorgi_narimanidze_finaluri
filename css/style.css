@@ -25,17 +25,19 @@ header {
 }
 
 .li_afirst {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
     color: rgba(213, 144, 110, 1)
 }
 
 .li_a {
 
-    font-size: 16px;
+    font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -49,6 +51,7 @@ header {
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -62,10 +65,51 @@ header {
 .bgimg_section {
     height: 720px;
 
+    padding: 283px 30%;
+
     margin-bottom: 1000px;
 
     background-image: url(../img/Rectangle\ 106\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.title_p_btn {
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.bg_title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 1);
+
+    text-align: center;
+}
+
+.bg_p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 1);
+
+    text-align: center;
+}
+
+.bg_button,
+button {
+    padding: 19px 116px;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+
+    border: 2px solid rgba(213, 144, 110, 1);
+    border-radius: 10px;
 }
