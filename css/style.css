@@ -432,19 +432,108 @@ figcaption {
 }
 
 .article_button .button_second {
-   padding: 14px 52px;
-   background-color: rgba(181, 59, 27, 1); 
-   font-size: 24px;
-   font-weight: 400;
-   border: none;
-   border-radius: 10px;
-   color: rgba(255, 255, 255, 1);
+    padding: 14px 52px;
+    background-color: rgba(181, 59, 27, 1);
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
 
-   transition: .6s;
+    transition: .6s;
 }
 
-.article_button .button_second:hover{
+.article_button .button_second:hover {
     background-color: rgb(248, 76, 38);
 }
 
 /* * * * * * FOOTER * * * *  */
+
+footer {
+    height: 240px;
+    background-color: rgba(64, 33, 1, 1);
+
+    padding: 32px 365px 32px 365px;
+}
+
+.footer_top {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.first_footer {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 8px;
+}
+
+.footer_li_a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Rubik', sans-serif;
+}
+
+.second_footernav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+}
+
+.call_email {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    position: relative;
+
+   
+}
+
+.call_email::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: .5s;
+}
+
+.call_email:hover::after{
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.last_direction_a {
+    margin-top: 5px;
+}
+
+.fa-phone,
+.fa-message,
+.fa-location-dot {
+    font-size: 18px;
+}
+
+.bottom_footer {
+    display: flex;
+    gap: 27px;
+}
