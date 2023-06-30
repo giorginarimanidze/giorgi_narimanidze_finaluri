@@ -215,9 +215,8 @@ figcaption {
 /* * * * *  BG SECTION  * * * * */
 
 
-.bg_section{
+.bg_section {
     height: 700px;
-    border: 5px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,33 +228,34 @@ figcaption {
     margin-top: 160px;
     margin-bottom: 40px;
 
-    
+
 }
 
-.kits_imgmother{
+.kits_imgmother {
     width: 88%;
     height: 260px;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.saleimg_{
+.saleimg_ {
     width: 92%;
     height: 260px;
-    
+
     display: flex;
     justify-content: space-between;
 }
 
-.fa-circle-chevron-left, .fa-circle-chevron-right{
+.fa-circle-chevron-left,
+.fa-circle-chevron-right {
     font-size: 44px;
     border-radius: 5px;
     color: rgba(181, 59, 27, 1);
 }
 
-.child_sale{
+.child_sale {
     width: 22%;
     height: 100%;
 
@@ -271,19 +271,19 @@ figcaption {
     background-size: cover;
 }
 
-.second_card{
+.second_card {
     background-image: url(../img/sale_2.png);
 }
 
-.third_card{
+.third_card {
     background-image: url(../img/sale_3.png);
 }
 
-.fourth_card{
+.fourth_card {
     background-image: url(../img/sale_4.png);
 }
 
-.price_card{
+.price_card {
     width: 28%;
     height: 48px;
 
@@ -296,9 +296,72 @@ figcaption {
     gap: 2px;
 }
 
-.fa-dollar-sign, .price_p{
+.fa-dollar-sign,
+.price_p {
     font-size: 16px;
     color: rgba(181, 59, 27, 1);
 }
 
-/* * * * ARTICLE * * *  */
+/* * * * BG SECTION - TWO * * *  */
+
+.adress {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 56px;
+
+
+    background-image: url(../img/cover2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.email_sub{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    
+}
+
+
+.emali_input {
+    height: 56px;
+    background-color: transparent;
+    
+    padding: 19px 100px 18px 19px;
+    
+    font-size: 18px;
+    color: white;
+
+    border: none;
+    outline: none;
+
+}
+
+.emali_input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.subbmit {
+    font-size: 18px; 
+    font-weight: 400;
+    color: rgba(64, 33, 1, 1);
+    padding: 17px 26px;
+    
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    border: none;
+ 
+    transition: 0.6s;
+    
+} 
+ 
+.subbmit:hover{
+   background-color: rgb(216, 98, 68);
+}
