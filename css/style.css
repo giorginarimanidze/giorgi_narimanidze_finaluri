@@ -24,6 +24,27 @@ header {
     gap: 60px;
 }
 
+.header_li {
+    position: relative;
+}
+
+.header_li::after {
+    content: "";
+    width: 0;
+    height: 3px;
+
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color:rgb(218, 175, 135);
+
+    transition: .2s ease;
+}
+
+.header_li:hover::after {
+    width: 100%;
+}
+
 .li_afirst {
     font-size: 18px;
     line-height: 21px;
@@ -46,6 +67,7 @@ header {
     align-items: center;
     gap: 16px;
 }
+
 
 .header_sign {
     font-size: 16px;
@@ -503,21 +525,21 @@ footer {
 
     position: relative;
 
-   
+
 }
 
-.call_email::after{
+.call_email::after {
     content: "";
     position: absolute;
     left: 0%;
     bottom: -10px;
     width: 0%;
     height: 2px;
-    background-color: white;
+    background-color: rgba(219, 186, 170, 0.52);
     transition: .5s;
 }
 
-.call_email:hover::after{
+.call_email:hover::after {
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
