@@ -1,0 +1,91 @@
+@media(max-width: 1880px) {
+    .bgimg_section {
+        padding: 283px 20%;
+    }
+
+    .article_mother {
+        width: 90%;
+    }
+
+    /* **** PAGE 2 **** */
+
+    .title_motherdiv{
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 1700px) {
+    .figure_mother {
+        width: 65%;
+    }
+
+    .grid_section {
+        padding: 96px 14%;
+    }
+
+    .price_card{
+        height: 40px;
+    }
+
+    .article_mother {
+        width: 95%;
+    }
+
+    .mother_textdiv {
+        height: 130px;
+    }
+
+    .child_divtext {
+        width: 32%;
+    }
+
+    .kits_imgmother{
+        width: 94%;
+    }
+
+    footer{
+        padding: 32px 260px;
+    }
+
+    /* **** PAGE 2 **** */
+
+    .secondpage_section{
+        width: 82%;
+
+    }
+
+    .title_motherdiv{
+        width: 74%;
+    }
+  
+}
+
+@media(max-width: 1500px) {
+    
+    header{
+        padding: 20px 10%;
+    }
+
+    /* **** PAGE 2 **** */
+    
+    .secondpage_section{
+        width: 88%;
+    }
+    .title_motherdiv{
+        width: 78%;
+    }
+
+    .cards_mother{
+        gap: 50px;
+    }
+
+    .mother_pages{
+        width: 38%;
+    }
+
+    footer{
+        padding: 30px 200px;
+    }
+
+}
