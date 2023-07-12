@@ -17,7 +17,41 @@ header {
     position: fixed;
     max-width: inherit;
     width: 100%;
+
+   
+
+}
+
+.fa-bars {
+    display: none;
+    font-size: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.headerlogo_a {
+    display: flex;
+    gap: none;
+
+    position: relative;
+}
+
+.header_h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 1);
     
+}
+
+.header_h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 38px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(213, 144, 110, 1);
+    position: absolute;
+    left: 95%;
 }
 
 .header_ul {
@@ -157,6 +191,10 @@ header {
 
 .childe_figure {
     transition-duration: .5s;
+}
+
+.firstimg_child {
+    width: 100%;
 }
 
 .childe_figure:hover {
@@ -322,6 +360,10 @@ figcaption {
 .price_p {
     font-size: 16px;
     color: rgba(181, 59, 27, 1);
+}
+
+.diplay_button .btn_none{
+    display: none;
 }
 
 /* * * * BG SECTION - TWO * * *  */
@@ -558,6 +600,7 @@ footer {
 .bottom_footer {
     display: flex;
     gap: 27px;
+    margin-top: 43px;
 }
 
 /* * * ** * * SECOND PAGE * * ** * *  */
@@ -565,7 +608,7 @@ footer {
 .second_page_bg {
     height: 560px;
     background-image: url(../img/second\ cover.png);
-    
+
 }
 
 /* * * * SECOND PAGE SECTION * * *  */
@@ -749,7 +792,7 @@ footer {
     border-radius: 8px;
 }
 
-.childe_img2{
+.childe_img2 {
     width: 100%;
     height: 240px;
 }

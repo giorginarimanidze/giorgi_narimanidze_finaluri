@@ -64,7 +64,15 @@
 @media(max-width: 1500px) {
     
     header{
-        padding: 20px 10%;
+        padding: 18px 10%;
+    }
+
+    .grid_section{
+        padding: 80px 12%;
+    }
+
+    .mother_textdiv{
+        height: 142px;
     }
 
     /* **** PAGE 2 **** */
@@ -85,6 +93,7 @@
     }
 
     footer{
+        height: 200px;
         padding: 30px 200px;
     }
 
