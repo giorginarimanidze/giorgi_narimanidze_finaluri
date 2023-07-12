@@ -255,4 +255,80 @@
         align-items: center;
         text-align: center;
      }
+
+     /* * * * * PAGE 2 * * * *  */
+
+     .second_page_bg{
+        height: 320px;
+     }
+
+     /* * * * * SECOND PAGE SECTION * * * *  */
+
+     .secondpage_section{
+        margin: 64px auto;
+        height: 1528px;
+     }
+
+     .title_motherdiv{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 25px;
+     }
+
+     .h4_iconmother{
+        gap: 16px;
+     }
+
+     .page2_input{
+        padding: 18px 37px 18px 16px;
+     }
+
+     .page2_subbmit{
+        padding: 17px 43px;
+     }
+
+     .second__titlemotherdiv{
+        margin-top: 140px;
+        width: 100%;
+        align-items: center;
+     }
+
+     /* * * * * SECOND GRID * * * *  */
+
+     .cards_mother{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .secondpage_childecard2{
+        display: none;
+     }
+
+     .secondpage_childecard5{
+        display: none;
+     }
+
+     .secondpage_childecard6{
+        display: none;
+     }
+
+     .secondpage_childecard7{
+        display: none;
+     }
+
+     .secondpage_childecard8{
+        display: none;
+     }
+
+     .mother_pages{
+        width: 72%;
+        height: 32px;
+        margin-top: 396px;
+     }
+
+     /* * * * * * PAGE 3 * * * * *  */
+
+     
+   
 }
